@@ -76,10 +76,20 @@
 //     console.log(x + "," + y);
 //   }
 // }
-let solution = 12;
 
-for (let num = (solution - 1); num > 0; num--) {
-  solution *= num;
+// let solution = 12;
+
+// for (let num = (solution - 1); num > 0; num--) {
+//   solution *= num;
+// }
+
+// console.log(solution);
+
+let numOfRows = 26;
+let numOfSeats = 100;
+
+for (let row = 0; row < numOfRows; row++) {
+  for (let seat = 0; seat < numOfSeats; seat++) {
+    console.log(row + "-" + seat);
+  }
 }
-
-console.log(solution);
