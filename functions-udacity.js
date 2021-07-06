@@ -109,8 +109,21 @@
 // }
 // console.log(laugh(10));
 
-var cry = function crying() {
-  return "boohoo!";
+// var cry = function crying() {
+//   return "boohoo!";
+// }
+
+// console.log(cry());
+
+function emotions(myString, myFunc) {
+  console.log("I am " + myString + ", " + myFunc(4));
 }
 
-console.log(cry());
+emotions("happy", function (num) {
+  let laughs = "";
+  for (i = 1; i <= num; i++) {
+    laughs += "ha";
+  }
+  laughs += "!";
+  return laughs;
+});
