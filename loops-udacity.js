@@ -46,23 +46,40 @@
 // }
 
 
-let tSeconds = 60;
+// let tSeconds = 60;
 
-while (tSeconds >= 0) {
-  if (tSeconds === 50) {
-    console.log("Orbiter transfers from ground to internal power");
-  } else if (tSeconds === 31) {
-    console.log("Ground launch sequencer is go for auto sequence start");
-  } else if (tSeconds === 16) {
-    console.log("Activate launch pad sound suppression system");
-  } else if (tSeconds === 10) {
-    console.log("Activate main engine hydrogen burnoff system");
-  } else if (tSeconds === 6) {
-    console.log("Main engine start");
-  } else if (tSeconds === 0) {
-    console.log("Solid rocket booster ignition and liftoff!");
-  } else {
-    console.log("T-" + tSeconds + " seconds");
-  }
-  tSeconds--;
+// while (tSeconds >= 0) {
+//   if (tSeconds === 50) {
+//     console.log("Orbiter transfers from ground to internal power");
+//   } else if (tSeconds === 31) {
+//     console.log("Ground launch sequencer is go for auto sequence start");
+//   } else if (tSeconds === 16) {
+//     console.log("Activate launch pad sound suppression system");
+//   } else if (tSeconds === 10) {
+//     console.log("Activate main engine hydrogen burnoff system");
+//   } else if (tSeconds === 6) {
+//     console.log("Main engine start");
+//   } else if (tSeconds === 0) {
+//     console.log("Solid rocket booster ignition and liftoff!");
+//   } else {
+//     console.log("T-" + tSeconds + " seconds");
+//   }
+//   tSeconds--;
+// }
+
+// for (let i = 0; i < 6; i++) {
+//   console.log("Printing out i = " + i);
+// }
+
+// for (let x = 0; x < 5; x++) {
+//   for (let y = 0; y < 3; y++) {
+//     console.log(x + "," + y);
+//   }
+// }
+let solution = 12;
+
+for (let num = (solution - 1); num > 0; num--) {
+  solution *= num;
 }
+
+console.log(solution);
