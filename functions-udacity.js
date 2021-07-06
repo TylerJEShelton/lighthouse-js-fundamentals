@@ -99,12 +99,18 @@
 //   console.log("My favorite video game is " + gameName);
 // }, "Days Gone");
 
-var laugh = function (num) {
-  let laughs = "";
-  for (i = 1; i <= num; i++) {
-    laughs += "ha";
-  }
-  laughs += "!";
-  return laughs;
+// var laugh = function (num) {
+//   let laughs = "";
+//   for (i = 1; i <= num; i++) {
+//     laughs += "ha";
+//   }
+//   laughs += "!";
+//   return laughs;
+// }
+// console.log(laugh(10));
+
+var cry = function crying() {
+  return "boohoo!";
 }
-console.log(laugh(10));
+
+console.log(cry());
